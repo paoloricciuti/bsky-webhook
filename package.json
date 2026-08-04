@@ -1,0 +1,16 @@
+{
+	"name": "bsky-webhook",
+	"version": "1.0.0",
+	"description": "Send a webhook to a specified URL when a specific collection in a specific repo is updated on at-proto",
+	"main": "index.js",
+	"scripts": {
+		"start": "node --env-file .env index.ts"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "module",
+	"devDependencies": {
+		"@types/node": "^26.1.2"
+	}
+}
