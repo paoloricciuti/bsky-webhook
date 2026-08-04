@@ -4,8 +4,8 @@
 	"description": "Send a webhook to a specified URL when a specific collection in a specific repo is updated on at-proto",
 	"main": "index.js",
 	"scripts": {
-		"dev": "node --env-file .env index.ts",
-		"start": "node index.ts"
+		"dev": "node --env-file .env index.js",
+		"start": "node index.js"
 	},
 	"keywords": [],
 	"author": "",
